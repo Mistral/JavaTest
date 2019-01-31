@@ -5,17 +5,17 @@ import java.util.List;
 
 class Airplane implements Vehicle {
 
-	private List<Environment> environments;
+    private List<Environment> environments;
 
-	Airplane() {
-		environments = Arrays.asList(Environment.AIRSPACE);
-	}
+    Airplane() {
+        environments = Arrays.asList(Environment.AIRSPACE);
+    }
 
-	@Override
-	public void move(Environment env) {
-		if (environments.contains(env)) {
-			System.out.println("MOVING IN: " + env);
-		}
-	}
+    @Override
+    public void move(Environment env) {
+        if (environments.contains(env)) {
+            System.out.println("MOVING IN: " + env);
+        }
+    }
 
 }

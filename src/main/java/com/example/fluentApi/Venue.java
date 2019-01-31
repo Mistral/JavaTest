@@ -4,24 +4,24 @@ import java.util.List;
 
 class Venue {
 
-	private String venueName;
+    private String venueName;
 
-	private String city;
+    private String city;
 
-	private List<Show> shows; // repertuar
+    private List<Show> shows; // repertuar
 
-	static Venue create(String name, String city, List<Show> shows) {
-		return new Venue(name, city, shows);
-	}
+    static Venue create(String name, String city, List<Show> shows) {
+        return new Venue(name, city, shows);
+    }
 
-	private Venue(String venueName, String city, List<Show> shows) {
-		this.venueName = venueName;
-		this.city = city;
-		this.shows = shows;
-	}
+    private Venue(String venueName, String city, List<Show> shows) {
+        this.venueName = venueName;
+        this.city = city;
+        this.shows = shows;
+    }
 
-	public List<Show> getShows() {
-		return shows;
-	}
+    public List<Show> getShows() {
+        return shows;
+    }
 
 }

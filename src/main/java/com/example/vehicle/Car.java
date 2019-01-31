@@ -5,17 +5,17 @@ import java.util.List;
 
 class Car implements Vehicle {
 
-	private List<Environment> environments;
+    private List<Environment> environments;
 
-	Car() {
-		environments = Arrays.asList(Environment.GROUND);
-	}
+    Car() {
+        environments = Arrays.asList(Environment.GROUND);
+    }
 
-	@Override
-	public void move(Environment env) {
-		if (environments.contains(env)) {
-			System.out.println("MOVING IN: " + env);
-		}
-	}
+    @Override
+    public void move(Environment env) {
+        if (environments.contains(env)) {
+            System.out.println("MOVING IN: " + env);
+        }
+    }
 
 }

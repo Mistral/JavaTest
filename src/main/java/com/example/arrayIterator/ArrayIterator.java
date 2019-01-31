@@ -2,8 +2,8 @@ package com.example.arrayIterator;
 
 public interface ArrayIterator<K> {
 
-	boolean hasNext();
+    boolean hasNext();
 
-	K next();
+    K next();
 
 }

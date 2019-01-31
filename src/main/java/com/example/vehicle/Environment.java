@@ -1,7 +1,7 @@
 package com.example.vehicle;
 
 enum Environment {
-	GROUND,
-	AIRSPACE,
-	WATER;
+    GROUND,
+    AIRSPACE,
+    WATER;
 }
